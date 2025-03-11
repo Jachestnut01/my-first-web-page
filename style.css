@@ -37,12 +37,12 @@
   align-items: center;
   list-style: none;
   text-align: center;
-  background-color: #8219a5;
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  /* background-color: #8219a5; */
+  /* background-size: 100%; */
+  /* -webkit-background-clip: text;
+  -moz-background-clip: text; */
+  /* -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -60,19 +60,19 @@
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    color: #8219a5;
   }
 
   .navbar__links:hover {
     background: goldenrod;
-    transition: all 0.3s ease;
+    color: #000;
+    /* transition: all 0.3s ease; */
   }
 
   body {
     background-color: #8219a5;
   }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
   * {
     box-sizing: border-box;
   }
@@ -95,4 +95,3 @@
   .row>h2{
     justify-self: center;
   }
-  </style>
